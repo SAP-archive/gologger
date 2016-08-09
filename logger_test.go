@@ -3,7 +3,7 @@ package gologger_test
 import (
 	"bytes"
 
-	. "github.infra.hana.ondemand.com/cloudfoundry/aker/logging"
+	. "github.infra.hana.ondemand.com/cloudfoundry/gologger"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
