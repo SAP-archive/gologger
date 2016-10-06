@@ -4,7 +4,7 @@ package gologgerfakes
 import (
 	"sync"
 
-	"github.infra.hana.ondemand.com/cloudfoundry/gologger"
+	"github.com/SAP/gologger"
 )
 
 type FakeLogger struct {
