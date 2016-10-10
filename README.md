@@ -2,6 +2,11 @@
 
 Simple logger for Go.
 
+# License
+This project is licensed under the Apache Software License, v. 2 except as noted otherwise in the LICENSE file.
+
+# User Guide
+
 Use the following command to download the logger.
 
 ```bash
