@@ -1,17 +1,37 @@
 # Go Logger
 
-Simple logging framework for Go
+Simple logger for Go.
 
-Use the following command to download the framework.
+Use the following command to download the logger.
 
 ```bash
 go get github.com/SAP/gologger
 ```
 
-Here is a simple demonstration how to use the framework.
+By default the logger is configured to output to default standard output file.
+The logger provide methods for writing 5 different types of messages to the configured output.
 
+Print debug message "Hello world, Jon Snow" to standard output.
+```go
+gologger.Debugf("Hello world, %s!", "Jon Snow")
+```
+
+Print info message "Hello world, Jon Snow" to standard output.
 ```go
 gologger.Infof("Hello world, %s!", "Jon Snow")
 ```
 
-The framework has a few more features, but that is left as an exercise for the reader.
+Print warning message "Hello world, Jon Snow" to standard output.
+```go
+gologger.Warnf("Hello world, %s!", "Jon Snow")
+```
+
+Print error message "Hello world, Jon Snow" to standard output.
+```go
+gologger.Errorf("Hello world, %s!", "Jon Snow")
+```
+
+Print fatal message "Hello world, Jon Snow" to standard output and exit program.
+```go
+gologger.Fatalf("Hello world, %s!", "Jon Snow")
+```

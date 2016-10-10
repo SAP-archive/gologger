@@ -7,8 +7,6 @@ import (
 	"os"
 )
 
-//go:generate counterfeiter . Logger
-
 type Logger interface {
 	Debugf(message string, args ...interface{})
 	Infof(message string, args ...interface{})
