@@ -13,8 +13,8 @@ Use the following command to download the logger.
 go get github.com/SAP/gologger
 ```
 
-By default the logger is configured to output to default standard output file.
-The logger provide methods for writing 5 different types of messages to the configured output.
+By default the logger is configured to output to default standard output file. This behavior could be changed by
+creating an instance of the logger and passing a different output. The logger provide methods for writing 5 different types of messages to the configured output.
 
 Print debug message "Hello world, Jon Snow" to standard output.
 ```go
@@ -39,4 +39,12 @@ gologger.Errorf("Hello world, %s!", "Jon Snow")
 Print fatal message "Hello world, Jon Snow" to standard output and exit program.
 ```go
 gologger.Fatalf("Hello world, %s!", "Jon Snow")
+```
+
+## Tests
+
+`gologger` project contains unit tests, in order to execute them run the following command in project root directory.
+
+``` bash
+ginkgo -r
 ```
