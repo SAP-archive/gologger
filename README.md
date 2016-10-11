@@ -1,3 +1,5 @@
+[![CLA assistant](https://cla-assistant.io/readme/badge/SAP/gologger)](https://cla-assistant.io/SAP/gologger)
+
 # Go Logger
 
 Simple logger for Go.
