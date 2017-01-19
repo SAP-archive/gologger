@@ -1,4 +1,5 @@
 [![CLA assistant](https://cla-assistant.io/readme/badge/SAP/gologger)](https://cla-assistant.io/SAP/gologger)
+[![GoDoc](https://godoc.org/github.com/SAP/aker?status.svg)](https://godoc.org/github.com/SAP/gologger)
 
 # Go Logger
 
